@@ -61,8 +61,8 @@ static NSString *identyfy = @"MKJTagViewTableViewCell";
     cell.tagView.interitemSpacing = 30;
     cell.tagView.singleLine = NO;
     // 给出两个字段，如果给的是0，那么就是变化的,如果给的不是0，那么就是固定的
-        cell.tagView.regularWidth = 80;
-        cell.tagView.regularHeight = 30;
+//        cell.tagView.regularWidth = 80;
+//        cell.tagView.regularHeight = 30;
     NSArray *arr = [self.dataSource[indexpath.row] valueForKey:@"first"];
     
     [arr enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
